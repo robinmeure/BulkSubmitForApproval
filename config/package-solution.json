@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Bulk Approval for Publishing Documents",
+    "id": "31338c0f-5f54-46b7-9664-607ea3db368f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Robin Meure MSFT",
+      "websiteUrl": "https://www.microsoft.com",
+      "privacyUrl": "https://privacy.microsoft.com/",
+      "termsOfUseUrl": "https://www.microsoft.com/en-us/legal/terms-of-use",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Bulk Approval for Publishing Documents"
+      },
+      "longDescription": {
+        "default": "Bulk Approval for Publishing Documents"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Application Extension - Bulk Approval for Publishing Documents",
+        "description": "Deploys a custom action to Bulk Approval for Publishing Documents",
+        "id": "b5c12830-d36d-4708-8f3e-5d45ea1db194",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/publisher.sppkg"
+  }
+}
